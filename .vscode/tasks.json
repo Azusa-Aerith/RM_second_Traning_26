@@ -1,0 +1,1 @@
+﻿{"version":"2.0.0","tasks":[{"label":"OCD 烧录（ST-Link 已修好）","type":"shell","command":"D:\\OpenOCD\\bin\\openocd.exe","args":["-s","D:\\OpenOCD\\share\\openocd\\scripts","-f","interface/stlink.cfg","-f","target/stm32f1x.cfg","-c","program ${workspaceFolder}/cmake-build-debug/Test.elf verify exit"],"group":{"kind":"build","isDefault":true},"problemMatcher":[]}]}
